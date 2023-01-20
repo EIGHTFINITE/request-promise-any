@@ -7,7 +7,7 @@ var childProcess = require('child_process'),
     path = require('path'),
     Q = require('q'),
     rp = require('../../'),
-    tough = require('tough-cookie'),
+    tough = require('@postman/tough-cookie'),
     startServer = require('../fixtures/server.js');
 
 

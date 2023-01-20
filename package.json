@@ -37,7 +37,7 @@
     "request-promise-core": "EIGHTFINITE/request-promise-core#master",
     "any-promise": "^1.0.0",
     "stealthy-require": "^1.1.1",
-    "tough-cookie": "~4.1.2"
+    "@postman/tough-cookie": "~4.1.2-postman.1"
   },
   "peerDependencies": {
     "postman-request": "^2.88.1-postman.19"
