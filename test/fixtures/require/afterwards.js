@@ -1,7 +1,7 @@
 'use strict';
 
 var rp = require('../../../');
-var request = require('request');
+var request = require('postman-request');
 
 var rpHasThen = rp('http://localhost:4000/200').then !== undefined;
 var requestHasNoThen = request('http://localhost:4000/200').then === undefined;
